@@ -78,7 +78,7 @@ const Contact = () => {
                 className="flex items-center gap-3 sm:gap-4 p-4 sm:p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-primary-300 group"
               >
                 <div className="p-2 sm:p-3 bg-primary-100 rounded-lg group-hover:bg-primary-600 transition-colors">
-                  <info.icon className="text-primary-600 group-hover:text-white transition-colors" size={20} className="sm:w-6 sm:h-6" />
+                  <info.icon className="text-primary-600 group-hover:text-white transition-colors w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="flex-1">
                   <div className="text-xs sm:text-sm text-gray-500">{info.label}</div>

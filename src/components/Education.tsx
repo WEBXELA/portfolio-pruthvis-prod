@@ -43,7 +43,7 @@ const Education = () => {
           >
             <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
               <div className="p-3 sm:p-4 bg-primary-100 rounded-lg">
-                <GraduationCap className="text-primary-600" size={32} className="sm:w-10 sm:h-10" />
+                <GraduationCap className="text-primary-600 w-8 h-8 sm:w-10 sm:h-10" />
               </div>
               <div className="flex-1">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">{education.degree}</h3>
@@ -52,7 +52,7 @@ const Education = () => {
                 <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                   <span>{education.period}</span>
                   <span className="flex items-center gap-2">
-                    <Award className="text-primary-600" size={16} className="sm:w-5 sm:h-5" />
+                    <Award className="text-primary-600 w-4 h-4 sm:w-5 sm:h-5" />
                     <span className="font-semibold">{education.cgpa}</span>
                   </span>
                 </div>

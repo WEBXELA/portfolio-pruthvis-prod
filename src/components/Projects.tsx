@@ -83,7 +83,7 @@ const Projects = () => {
             >
               <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
                 <div className="p-1.5 sm:p-2 bg-primary-100 rounded-lg">
-                  <Code className="text-primary-600" size={20} className="sm:w-6 sm:h-6" />
+                  <Code className="text-primary-600 w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900">{project.title}</h3>
               </div>

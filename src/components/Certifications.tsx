@@ -86,7 +86,7 @@ const Certifications = () => {
             >
               <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                 <div className="p-2 sm:p-3 bg-primary-100 rounded-lg">
-                  <category.icon className="text-primary-600" size={24} className="sm:w-7 sm:h-7" />
+                  <category.icon className="text-primary-600 w-6 h-6 sm:w-7 sm:h-7" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 flex-1">{category.category}</h3>
                 <span className="px-2 sm:px-3 py-1 bg-primary-600 text-white text-xs sm:text-sm font-semibold rounded-full">
@@ -103,7 +103,7 @@ const Certifications = () => {
                     transition={{ duration: 0.6, delay: categoryIndex * 0.08 + certIndex * 0.04, ease: [0.25, 0.46, 0.45, 0.94] }}
                     className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-primary-50 transition-all duration-300 border border-gray-200 hover:border-primary-200"
                   >
-                    <BadgeCheck className="text-primary-600 flex-shrink-0 mt-0.5" size={18} className="sm:w-5 sm:h-5" />
+                    <BadgeCheck className="text-primary-600 flex-shrink-0 mt-0.5 w-4 h-4 sm:w-5 sm:h-5" />
                     <span className="text-gray-700 text-xs sm:text-sm leading-relaxed">{cert}</span>
                   </motion.div>
                 ))}

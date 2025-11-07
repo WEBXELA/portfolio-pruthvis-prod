@@ -73,7 +73,7 @@ const About = () => {
               >
                 <div className="flex items-center gap-3 sm:gap-4">
                   <div className="p-2 sm:p-3 bg-primary-100 rounded-lg">
-                    <stat.icon className="text-primary-600" size={24} className="sm:w-8 sm:h-8" />
+                    <stat.icon className="text-primary-600 w-6 h-6 sm:w-8 sm:h-8" />
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl font-bold text-primary-600">{stat.value}</div>

@@ -175,7 +175,7 @@ const Experience = () => {
                   <div className={`p-3 sm:p-4 rounded-lg ${
                     exp.isHighlighted ? 'bg-primary-100' : 'bg-gray-100'
                   }`}>
-                    <exp.icon className={exp.isHighlighted ? 'text-primary-600' : 'text-gray-700'} size={24} className="sm:w-8 sm:h-8" />
+                    <exp.icon className={`${exp.isHighlighted ? 'text-primary-600' : 'text-gray-700'} w-6 h-6 sm:w-8 sm:h-8`} />
                   </div>
                 )}
 
