@@ -106,7 +106,10 @@ const Hero = () => {
               Get In Touch
             </motion.a>
             <motion.a
-              href="mailto:pruthvis998@gmail.com"
+              href="/Pruthvi full Copado resume.pdf"
+              download="Pruthvi-S-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white border-2 border-primary-600 text-primary-600 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-primary-50 transition-all duration-300 text-sm sm:text-base"
               whileHover={{ opacity: 0.9 }}
             >
