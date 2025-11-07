@@ -60,23 +60,22 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar scrollY={scrollY} onTeamClick={handleTeamClick} />
       
-      {/* Watch Now Button - Fixed Bottom Right */}
+      {/* Yatri Cloud YouTube Shortcut - Fixed Bottom Right */}
       <motion.a
         href="https://www.youtube.com/@yatricloud?sub_confirmation=1"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Open Yatri Cloud YouTube channel"
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
-        className="fixed bottom-3 sm:bottom-4 md:bottom-8 right-3 sm:right-4 md:right-8 z-40 flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 sm:py-2.5 bg-primary-600 text-white rounded-lg shadow-lg hover:shadow-2xl hover:bg-primary-700 transition-all duration-300 font-semibold text-xs sm:text-sm md:text-base group"
+        className="fixed bottom-3 sm:bottom-4 md:bottom-8 right-3 sm:right-4 md:right-8 z-40 inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-primary-300"
       >
-        <img 
-          src="/yatricloud-round-transparent.png" 
-          alt="Yatri Cloud" 
-          className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
+        <img
+          src="/yatricloud-round-transparent.png"
+          alt="Yatri Cloud Logo"
+          className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
         />
-        <span className="hidden sm:inline">Watch Now</span>
-        <span className="sm:hidden">Watch</span>
       </motion.a>
 
       <Hero />
