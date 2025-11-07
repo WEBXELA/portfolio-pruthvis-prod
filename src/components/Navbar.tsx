@@ -94,7 +94,7 @@ const Navbar = ({ scrollY, onTeamClick }: NavbarProps) => {
             className="md:hidden text-gray-700 hover:text-primary-600"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>

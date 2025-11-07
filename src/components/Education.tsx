@@ -67,7 +67,7 @@ const Education = () => {
             className="mt-8 bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-primary-300"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <Award className="text-primary-600" size={24} />
+              <Award className="text-primary-600 w-6 h-6" />
               Awards & Recognition
             </h3>
             <div className="space-y-3">

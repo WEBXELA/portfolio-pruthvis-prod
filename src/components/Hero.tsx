@@ -102,7 +102,7 @@ const Hero = () => {
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-primary-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300 text-sm sm:text-base"
               whileHover={{ opacity: 0.9 }}
             >
-              <Mail size={18} className="sm:w-5 sm:h-5" />
+              <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
               Get In Touch
             </motion.a>
             <motion.a
@@ -113,7 +113,7 @@ const Hero = () => {
               className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white border-2 border-primary-600 text-primary-600 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-primary-50 transition-all duration-300 text-sm sm:text-base"
               whileHover={{ opacity: 0.9 }}
             >
-              <Download size={18} className="sm:w-5 sm:h-5" />
+              <Download className="w-4 h-4 sm:w-5 sm:h-5" />
               Download Resume
             </motion.a>
           </motion.div>
@@ -137,7 +137,7 @@ const Hero = () => {
                 whileHover={{ opacity: 0.8 }}
                 aria-label={label}
               >
-                <Icon size={20} className="sm:w-6 sm:h-6" />
+                <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
               </motion.a>
             ))}
           </motion.div>

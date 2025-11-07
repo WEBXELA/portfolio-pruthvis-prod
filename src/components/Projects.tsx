@@ -124,7 +124,7 @@ const Projects = () => {
                   className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg text-sm font-medium flex items-center justify-center gap-2 hover:bg-primary-700 transition-all duration-300"
                   whileHover={{ opacity: 0.9 }}
                 >
-                  <Github size={16} />
+                  <Github className="w-4 h-4" />
                   Source Code
                 </motion.a>
                 {project.demoLink && project.demoLink !== '#' && (
@@ -135,7 +135,7 @@ const Projects = () => {
                     className="px-4 py-2 bg-white border border-primary-600 text-primary-600 rounded-lg text-sm font-medium flex items-center justify-center gap-2 hover:bg-primary-50 transition-all duration-300"
                     whileHover={{ opacity: 0.9 }}
                   >
-                    <ExternalLink size={16} />
+                    <ExternalLink className="w-4 h-4" />
                   </motion.a>
                 )}
               </div>

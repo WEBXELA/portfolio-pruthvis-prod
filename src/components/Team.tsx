@@ -153,7 +153,7 @@ const Team = () => {
                       className="w-10 h-10 sm:w-12 sm:h-12 object-contain rounded-lg"
                     />
                   ) : (
-                    <Users className="text-primary-600 sm:w-9 sm:h-9" size={28} />
+                    <Users className="text-primary-600 w-7 h-7 sm:w-9 sm:h-9" />
                   )}
                   <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">{team.name}</h3>
                 </div>
@@ -210,7 +210,7 @@ const Team = () => {
                           )}
                         </div>
                         <div className="absolute -bottom-2 -right-2 p-2.5 bg-primary-600 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-110">
-                          <Linkedin className="text-white" size={18} />
+                          <Linkedin className="text-white w-4 h-4" />
                         </div>
                       </div>
                       <h4 className="font-bold text-gray-900 mb-2 text-sm sm:text-base group-hover:text-primary-600 transition-colors leading-tight">
@@ -221,7 +221,7 @@ const Team = () => {
                       </p>
                       <span className="inline-flex items-center gap-1.5 text-xs text-primary-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity mt-auto">
                         View LinkedIn
-                        <ExternalLink size={12} />
+                        <ExternalLink className="w-3 h-3" />
                       </span>
                     </motion.a>
                   ))}

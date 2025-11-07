@@ -154,7 +154,7 @@ const Experience = () => {
             >
               {exp.isHighlighted && (
                 <div className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 bg-primary-600 text-white px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-bold flex items-center gap-1 sm:gap-2">
-                  <Sparkles size={14} className="sm:w-4 sm:h-4" />
+                  <Sparkles className="w-3 h-3 sm:w-4 sm:h-4" />
                   <span className="hidden sm:inline">Featured</span>
                   <span className="sm:hidden">★</span>
                 </div>
@@ -199,11 +199,11 @@ const Experience = () => {
                       </div>
                       <div className="flex items-center gap-4 text-gray-600 text-sm">
                         <span className="flex items-center gap-1">
-                          <Calendar size={16} />
+                          <Calendar className="w-4 h-4" />
                           {exp.period}
                         </span>
                         <span className="flex items-center gap-1">
-                          <Briefcase size={16} />
+                          <Briefcase className="w-4 h-4" />
                           {exp.location}
                         </span>
                       </div>
@@ -214,7 +214,7 @@ const Experience = () => {
 
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                      <Award size={18} />
+                      <Award className="w-4 h-4" />
                       Key Achievements:
                     </h4>
                     <ul className="space-y-2">
@@ -238,7 +238,7 @@ const Experience = () => {
                   {exp.links && (
                     <div className="mt-6 pt-4 border-t border-gray-200">
                       <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                        <Users size={18} />
+                        <Users className="w-4 h-4" />
                         Connect with {exp.company}:
                       </h4>
                       <div className="flex flex-wrap gap-2">
@@ -256,7 +256,7 @@ const Experience = () => {
                             whileHover={{ opacity: 0.9 }}
                           >
                             {platform.charAt(0).toUpperCase() + platform.slice(1)}
-                            <ExternalLink size={14} />
+                            <ExternalLink className="w-3 h-3" />
                           </motion.a>
                         ))}
                       </div>

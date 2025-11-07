@@ -37,7 +37,7 @@ const Footer = () => {
                   className="p-2 bg-gray-800 hover:bg-primary-600 rounded-lg transition-colors duration-200"
                   aria-label={label}
                 >
-                  <Icon size={16} className="sm:w-5 sm:h-5" />
+                  <Icon className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
               ))}
             </div>
@@ -81,19 +81,19 @@ const Footer = () => {
             <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-white">Get In Touch</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3 text-gray-400 text-xs sm:text-sm">
-                <Mail size={16} className="mt-0.5 flex-shrink-0 sm:w-5 sm:h-5" />
+                <Mail className="mt-0.5 flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
                 <a href="mailto:pruthvis998@gmail.com" className="hover:text-primary-500 transition-colors break-words">
                   pruthvis998@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 text-gray-400 text-xs sm:text-sm">
-                <Phone size={16} className="mt-0.5 flex-shrink-0 sm:w-5 sm:h-5" />
+                <Phone className="mt-0.5 flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
                 <a href="tel:+918618350739" className="hover:text-primary-500 transition-colors">
                   +91 - 8618350739
                 </a>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 text-gray-400 text-xs sm:text-sm">
-                <MapPin size={16} className="mt-0.5 flex-shrink-0 sm:w-5 sm:h-5" />
+                <MapPin className="mt-0.5 flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
                 <span>Bangalore, Karnataka, India</span>
               </li>
             </ul>
@@ -126,7 +126,7 @@ const Footer = () => {
               className="px-3 sm:px-4 py-2 bg-primary-600 hover:bg-primary-700 rounded-lg text-xs sm:text-sm font-medium transition-colors flex items-center gap-2"
             >
               Visit Website
-              <ExternalLink size={14} className="sm:w-4 sm:h-4" />
+              <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
             </a>
           </div>
         </motion.div>
@@ -153,7 +153,7 @@ const Footer = () => {
               className="p-2 bg-gray-800 hover:bg-primary-600 rounded-lg transition-colors duration-200"
               aria-label="Scroll to top"
             >
-              <ArrowUp size={16} className="sm:w-5 sm:h-5" />
+              <ArrowUp className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           </div>
         </motion.div>
